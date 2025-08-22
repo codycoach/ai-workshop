@@ -23,3 +23,14 @@ app.include_router(router)
 @app.get("/")
 async def root():
     return {"status": "ok"}
+# {
+#   "email": "user@example.com",
+#   "first_name": "string",
+#   "last_name": "string",
+#   "phone": "string",
+#   "membership_level": "string",
+#   "member_code": "string",
+#   "membership_joined_on": "string",
+#   "points_balance": 0,
+#   "password": "string"
+# }
